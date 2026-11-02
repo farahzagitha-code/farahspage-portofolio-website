@@ -23,8 +23,6 @@ body {
     transition: 0.3s;
 }
 
-/* NAVIGATION */
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -567,6 +565,18 @@ body.dark-mode .secondary-btn {
     padding: 70px 10%;
 }
 
+
+
+
+
+/* PROJECT TOOLBAR */
+
+
+
+
+/* FILTER BUTTONS */
+
+
 .filter-btn {
     padding: 11px 20px;
     border: 1.5px solid var(--ink);
@@ -587,6 +597,7 @@ body.dark-mode .secondary-btn {
 
 /* PROJECT GRID */
 
+
 .project-card {
     border: 1.5px solid var(--ink);
     border-radius: 12px;
@@ -603,6 +614,22 @@ body.dark-mode .secondary-btn {
 .project-card.hidden {
     display: none;
 }
+
+/* PROJECT ART */
+
+
+
+
+
+
+
+
+
+/* PROJECT INFO */
+
+
+
+
 
 .view-project {
     margin-top: 20px;
@@ -1170,11 +1197,6 @@ body.dark-mode .secondary-btn {
     }
 }
 
-/* ==================================================
-   FARAH'S PAGE — PERSONAL VISUAL IDENTITY
-   Palette: Green / Cream / Daisy / Sky / Rose / Plum
-================================================== */
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
 
 :root {
@@ -1675,6 +1697,96 @@ body.dark-mode .modal-section p, body.dark-mode .modal-section li {
     color: #E1C9D6;
 }
 body.dark-mode .contact-card { color: var(--dried-plum); }
+
+/* Improve text contrast across all pages in dark mode */
+body.dark-mode .hero h1,
+body.dark-mode .about-heading h1,
+body.dark-mode .projects-hero h1,
+body.dark-mode .contact-hero h1,
+body.dark-mode .contact-info h2,
+body.dark-mode .contact-form-area h2,
+body.dark-mode .project-stats strong,
+body.dark-mode .timeline-year,
+body.dark-mode .view-project,
+body.dark-mode .closing-link,
+body.dark-mode .contact-label,
+body.dark-mode .section-mini-label,
+body.dark-mode #contact-form label {
+    color: var(--ivory);
+}
+
+body.dark-mode .hero h1 span,
+body.dark-mode .about-heading h1 span,
+body.dark-mode .projects-hero h1 span,
+body.dark-mode .about-closing h2 span,
+body.dark-mode .contact-hero h1 span {
+    color: #F0A8D5;
+}
+
+body.dark-mode .hero-description,
+body.dark-mode .about-heading > p:last-child,
+body.dark-mode .projects-intro,
+body.dark-mode .contact-hero > p,
+body.dark-mode .form-description,
+body.dark-mode .site-footer,
+body.dark-mode footer {
+    color: #EADCE5;
+}
+
+body.dark-mode .timeline-card,
+body.dark-mode .interest-card,
+body.dark-mode .project-card,
+body.dark-mode .modal-content,
+body.dark-mode #contact-form input,
+body.dark-mode #contact-form textarea {
+    background: #3D2B3A;
+    color: var(--ivory);
+}
+
+body.dark-mode .timeline-card h3,
+body.dark-mode .timeline-card p,
+body.dark-mode .interest-card h3,
+body.dark-mode .interest-card p,
+body.dark-mode .project-card h3,
+body.dark-mode .project-card p,
+body.dark-mode .modal-section p,
+body.dark-mode .modal-section li,
+body.dark-mode .contact-card-text p {
+    color: #EADCE5;
+}
+
+body.dark-mode .filter-btn {
+    border-color: #D9B8CC;
+    color: var(--ivory);
+}
+body.dark-mode .filter-btn:hover,
+body.dark-mode .filter-btn.active {
+    background: var(--daisy);
+    border-color: var(--daisy);
+    color: #2D202B;
+}
+
+body.dark-mode .secondary-btn,
+body.dark-mode .copy-button {
+    border-color: #F0A8D5;
+    color: var(--ivory);
+}
+body.dark-mode .secondary-btn:hover,
+body.dark-mode .copy-button:hover {
+    background: #F0A8D5;
+    color: #2D202B;
+}
+
+body.dark-mode .timeline-tag,
+body.dark-mode .achievement-tag,
+body.dark-mode .modal-tags span {
+    background: #DCE9A0;
+    color: #29351F;
+}
+
+body.dark-mode .contact-card-text h3 {
+    color: #54283D;
+}
 
 /* Responsive */
 @media (max-width: 800px) {
