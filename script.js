@@ -1,10 +1,4 @@
-
-/* =================================
-   Farah's page — INTERACTIVE FEATURES
-================================= */
-
 /* 1. DARK MODE */
-
 const themeButton = document.getElementById("theme-toggle");
 
 if (themeButton) {
@@ -16,9 +10,7 @@ if (themeButton) {
     });
 }
 
-
 /* 2. PROJECT DATABASE */
-
 const projectData = {
     care: {
         category: "HEALTHTECH & ASSISTIVE INNOVATION",
@@ -184,9 +176,7 @@ const projectData = {
     }
 };
 
-
 /* 3. PROJECT CATEGORY FILTER */
-
 const filterButtons = document.querySelectorAll(".filter-btn");
 const projectCards = document.querySelectorAll(".project-card");
 const emptyMessage = document.getElementById("empty-projects");
@@ -222,9 +212,7 @@ filterButtons.forEach(function (button) {
     });
 });
 
-
 /* 4. PROJECT DETAIL MODAL */
-
 const projectModal = document.getElementById("project-modal");
 const modalClose = document.getElementById("modal-close");
 
