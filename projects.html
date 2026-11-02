@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects — Farah's Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="projects-page">
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">farah's<span>.page</span></a>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">☾</button>
+    </nav>
+
+    <main class="projects-main">
+
+        <section class="projects-hero">
+            <p class="eyebrow">✳ MY CREATIVE & RESEARCH SPACE</p>
+            <h1>Ideas into <span>Impact.</span></h1>
+            <p class="projects-intro">
+                A collection of research, technology, and innovation projects
+                exploring ideas that address real-world challenges.
+            </p>
+
+            <div class="project-stats">
+                <div>
+                    <strong>09</strong>
+                    <span>Featured Projects</span>
+                </div>
+                <div>
+                    <strong>04</strong>
+                    <span>Innovation Fields</span>
+                </div>
+                <div>
+                    <strong>2024—26</strong>
+                    <span>Project Timeline</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-archive">
+            <div class="archive-heading">
+                <div>
+                    <p class="eyebrow">THE ARCHIVE</p>
+                    <h2>Selected Works<span> (09)</span></h2>
+                </div>
+                <p class="archive-note">Curiosity, research & a little bit of experimentation.</p>
+            </div>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="healthtech">HealthTech</button>
+                <button class="filter-btn" data-filter="sustainability">Sustainability</button>
+                <button class="filter-btn" data-filter="ai-iot">AI & IoT</button>
+                <button class="filter-btn" data-filter="bioinnovation">Bioinnovation</button>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card" data-category="healthtech">
+                    <div class="project-visual visual-pink">
+                        <span class="visual-number">01 / 09</span>
+                        <span class="visual-symbol">✳</span>
+                        <span class="visual-label">HEALTH + AI</span>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-meta">
+                            <span>HEALTHTECH</span>
+                            <span>2025—26</span>
+                        </div>
+                        <h3>CARE</h3>
+                        <p>AI-Powered Smart Medication Companion for Remote Elderly Care</p>
+                        <div class="project-bottom">
+                            <span class="achievement-tag">Finalist · SIC Batch 7</span>
+                            <button class="view-project" data-project="care">Explore ↗</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="sustainability">
+                    <div class="project-visual visual-lime">
+                        <span class="visual-number">02 / 09</span>
+                        <span class="visual-symbol">♧</span>
+                        <span class="visual-label">WASTE → VALUE</span>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-meta">
+                            <span>SUSTAINABILITY</span>
+                            <span>2025</span>
+                        </div>
+                        <h3>COMPASS</h3>
+                        <p>IoT-Integrated Organic Waste Management & Smart Farming System</p>
+                        <div class="project-bottom">
+                            <span class="achievement-tag">National Finalist · ISPO</span>
+                            <button class="view-project" data-project="compass">Explore ↗</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="ai-iot">
+                    <div class="project-visual visual-blue">
+                        <span class="visual-number">03 / 09</span>
+                        <span class="visual-symbol">⌁</span>
+                        <span class="visual-label">SMART LOGISTICS</span>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-meta">
+                            <span>AI & IoT</span>
+                            <span>2025</span>
+                        </div>
+                        <h3>LOTRA</h3>
+                        <p>IoT-Based Smart Logistics Robot with AI-Powered Real-Time Monitoring</p>
+                        <div class="project-bottom">
+                            <span class="achievement-tag">Semifinalist · INJECTION</span>
+                            <button class="view-project" data-project="lotra">Explore ↗</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="ai-iot">
+                    <div class="project-visual visual-cream">
+                        <span class="visual-number">04 / 09</span>
+                        <span class="visual-symbol">⌖</span>
+                        <span class="visual-label">SMART SECURITY</span>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-meta">
+                            <span>AI & IoT</span>
+                            <span>2025</span>
+                        </div>
+                        <h3>SIGAP</h3>
+                        <p>AI-IoT Smart Security System with Suspicious Motion Detection</p>
+                        <div class="project-bottom">
+                            <span class="achievement-tag">Top 10 · SIC Batch 6</span>
+                            <button class="view-project" data-project="sigap">Explore ↗</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="healthtech">
+                    <div class="project-visual visual-blue">
+                        <span class="visual-number">05 / 09</span>
+                        <span class="visual-symbol">↗</span>
+                        <span class="visual-label">ASSISTIVE TECH</span>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-meta">
+                            <span>HEALTHTECH</span>
+                            <span>2024</span>
+                        </div>
+                        <h3>Mobility Innovation</h3>
+                        <p>IoT & AI-Integrated Smart Wheel for Stroke Rehabilitation</p>
+                        <div class="project-bottom">
+                            <span class="achievement-tag">1st Place · STEAM Finalist</span>
+                            <button class="view-project" data-project="mobility">Explore ↗</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="sustainability">
+                    <div class="project-visual visual-pink">
+                        <span class="visual-number">06 / 09</span>
+                        <span class="visual-symbol">◉</span>
+                        <span class="visual-label">ENERGY STORAGE</span>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-meta">
+                            <span>SUSTAINABILITY</span>
+                            <span>2024</span>
+                        </div>
+                        <h3>NaCELL</h3>
+                        <p>Sustainable Molten Salt Battery for Energy Storage</p>
+                        <div class="project-bottom">
+                            <span class="achievement-tag">Semifinalist · FSAD Fair</span>
+                            <button class="view-project" data-project="nacell">Explore ↗</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="sustainability">
+                    <div class="project-visual visual-lime">
+                        <span class="visual-number">07 / 09</span>
+                        <span class="visual-symbol">ϟ</span>
+                        <span class="visual-label">ENERGY HARVESTING</span>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-meta">
+                            <span>SUSTAINABILITY</span>
+                            <span>2024</span>
+                        </div>
+                        <h3>STEPVolt</h3>
+                        <p>Hybrid Piezoelectric & Solar Energy Harvesting Floor System</p>
+                        <div class="project-bottom">
+                            <span class="achievement-tag">Semifinalist · BRAND UI</span>
+                            <button class="view-project" data-project="stepvolt">Explore ↗</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bioinnovation">
+                    <div class="project-visual visual-cream">
+                        <span class="visual-number">08 / 09</span>
+                        <span class="visual-symbol">✿</span>
+                        <span class="visual-label">FOOD SCIENCE</span>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-meta">
+                            <span>BIOINNOVATION</span>
+                            <span>2024</span>
+                        </div>
+                        <h3>RESVIBAR</h3>
+                        <p>Resveratrol-Enriched Red Grape Nutraceutical Snack Bar</p>
+                        <div class="project-bottom">
+                            <span class="achievement-tag">National Finalist</span>
+                            <button class="view-project" data-project="resvibar">Explore ↗</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="bioinnovation">
+                    <div class="project-visual visual-blue">
+                        <span class="visual-number">09 / 09</span>
+                        <span class="visual-symbol">⌬</span>
+                        <span class="visual-label">SCIENTIFIC RESEARCH</span>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-meta">
+                            <span>BIOINNOVATION</span>
+                            <span>2024</span>
+                        </div>
+                        <h3>Nutritional Research</h3>
+                        <p>Red Grape & Peanut Skin Extracts for Alzheimer's-Related Nutritional Research</p>
+                        <div class="project-bottom">
+                            <span class="achievement-tag">OPSI · Stage 4</span>
+                            <button class="view-project" data-project="nutrition">Explore ↗</button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="empty-projects" id="empty-projects" hidden>
+                No projects found in this category yet.
+            </p>
+        </section>
+
+        <section class="projects-closing">
+            <p class="eyebrow">THERE'S MORE TO EXPLORE</p>
+            <h2>Every idea starts<br>somewhere.</h2>
+            <p>Have a project in mind or want to collaborate?</p>
+            <a href="contact.html" class="closing-link">Let's connect ↗</a>
+        </section>
+
+    </main>
+
+    <!-- PROJECT DETAIL MODAL -->
+    <div class="project-modal" id="project-modal" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button class="modal-close" id="modal-close" aria-label="Close project details">×</button>
+
+            <p class="eyebrow" id="modal-category">PROJECT DETAILS</p>
+            <h2 id="modal-title">Project Name</h2>
+            <p class="modal-year" id="modal-year"></p>
+
+            <div class="modal-section">
+                <h3>Project Overview</h3>
+                <p id="modal-overview"></p>
+            </div>
+
+            <div class="modal-section">
+                <h3>My Contribution</h3>
+                <p class="modal-role" id="modal-role"></p>
+                <ul id="modal-contribution"></ul>
+            </div>
+
+            <div class="modal-section">
+                <h3>Technical Focus</h3>
+                <div class="modal-tags" id="modal-tags"></div>
+            </div>
+
+            <div class="modal-section">
+                <h3>Achievement</h3>
+                <p id="modal-achievement"></p>
+            </div>
+
+            <a class="certificate-link" id="modal-certificate" href="#" target="_blank" rel="noopener noreferrer">
+                View Certificate ↗
+            </a>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <p>© 2026 Farah's Page — Made with curiosity & caffeine.</p>
+        <a href="index.html">Back to top ↑</a>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Farah's Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">Farah's Page<span>✳</span></a>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+
+        <button id="theme-toggle" class="theme-toggle">☾</button>
+    </nav>
+
+    <main class="contact-main">
+
+        <section class="contact-hero">
+            <div class="contact-label">LET'S CONNECT / 004</div>
+
+            <h1>
+                Good things<br>
+                start with a <span>hello.</span>
+            </h1>
+
+            <p>
+                Have an idea, a project, or simply want to connect?
+                I'm always open to meaningful conversations and new possibilities.
+            </p>
+
+            <div class="contact-sticker">OPEN TO CONNECTIONS ✳</div>
+        </section>
+
+        <section class="contact-content">
+
+            <div class="contact-info">
+                <div class="section-mini-label">FIND ME AROUND THE INTERNET</div>
+                <h2>Let's get in touch!</h2>
+
+                <a class="contact-card linkedin-card"
+                   href="https://www.linkedin.com/in/farah-chavia-zagitha-setyobudi-3b9825411/"
+                   target="_blank" rel="noopener noreferrer">
+                    <div class="contact-card-icon">in</div>
+                    <div class="contact-card-text">
+                        <h3>LinkedIn</h3>
+                        <p>Let's connect professionally.</p>
+                    </div>
+                    <span class="contact-arrow">↗</span>
+                </a>
+
+                <a class="contact-card instagram-card"
+                   href="https://instagram.com/farahzs_"
+                   target="_blank" rel="noopener noreferrer">
+                    <div class="contact-card-icon">◎</div>
+                    <div class="contact-card-text">
+                        <h3>Instagram</h3>
+                        <p>@farahzs_</p>
+                    </div>
+                    <span class="contact-arrow">↗</span>
+                </a>
+
+                <a class="contact-card email-card"
+                   href="mailto:farah.zagitha@gmail.com">
+                    <div class="contact-card-icon">✉</div>
+                    <div class="contact-card-text">
+                        <h3>Email</h3>
+                        <p>farah.zagitha@gmail.com</p>
+                    </div>
+                    <span class="contact-arrow">↗</span>
+                </a>
+
+                <div class="contact-card line-card">
+                    <div class="contact-card-icon">L</div>
+                    <div class="contact-card-text">
+                        <h3>LINE</h3>
+                        <p id="line-id">farazs001</p>
+                    </div>
+                    <button id="copy-line" class="copy-button"
+                            type="button">COPY</button>
+                </div>
+
+                <p id="copy-feedback" class="copy-feedback" aria-live="polite"></p>
+            </div>
+
+            <div class="contact-form-area">
+                <div class="section-mini-label">A LITTLE SPACE FOR YOUR HELLO</div>
+                <h2>Drop me a note!</h2>
+                <p class="form-description">
+                    Tell me what's on your mind. I'd love to hear from you.
+                </p>
+
+                <form id="contact-form">
+                    <label for="sender-name">Your name</label>
+                    <input type="text" id="sender-name"
+                           placeholder="What should I call you?"
+                           required>
+
+                    <label for="sender-email">Your email</label>
+                    <input type="email" id="sender-email"
+                           placeholder="you@example.com"
+                           required>
+
+                    <label for="sender-subject">Subject</label>
+                    <input type="text" id="sender-subject"
+                           placeholder="What's this about?"
+                           required>
+
+                    <label for="sender-message">Your message</label>
+                    <textarea id="sender-message"
+                              placeholder="Write something here..."
+                              rows="5" required></textarea>
+
+                    <button type="submit" class="send-button">
+                        SEND MESSAGE <span>↗</span>
+                    </button>
+
+                    <p id="form-feedback" class="form-feedback"
+                       aria-live="polite"></p>
+                </form>
+            </div>
+
+        </section>
+
+        <section class="contact-closing">
+            <h2>Until then, stay curious.</h2>
+            <p>Thanks for stopping by my little corner of the internet.</p>
+            <span>✳ Farah's Page — END OF TRANSMISSION ✳</span>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Farah's Page — MADE WITH CURIOSITY.</p>
+        <a href="index.html">BACK TO HOME ↑</a>
+    </footer>
+
+</body>
+</html>
